@@ -1,0 +1,11 @@
+
+This sample app shows how to find facilities closest to an incident. In this sample we use the recreation facilities as facilities and the closest facility analysis from our sample server. Please note that this service is limited to the San Diego Metro area, for full data coverage please use the ArcGIS Online Network Analysis Service.
+
+Features
+
+Calculate route to closest alternative fuel station in San Diego
+Use a feature service query url to limit geographic facilities
+Support for credentials to support ArcGIS Online Network Analysis Service
+Sample Design
+
+This sample uses the ClosestFacilityTask class to find the closest recreation facilities based on parameters set with ClosestFacilityParameters and results bundled in a ClosestFacilityResult server response. There are private fields for user credentials which if you edit the strings will automatically cause the sample to use the ArcGIS Online Network Analysis Service.
