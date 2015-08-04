@@ -1,13 +1,38 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material">
+    <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
+        <!-- Teal for the app bar -->
+        <item name ="android:colorPrimary">@color/primary</item>
+        <!-- Darker variant for the status bar -->
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <!-- Theme UI controls -->
+        <item name="android:colorAccent">@color/accent</item>
+        <!-- Theme's primary text color -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <!-- secondary text color -->
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <item name="android:fitsSystemWindows">true</item>
+
+
+
     </style>
 
-    <style name="myTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="myTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
-        <item name="windowActionBar">false</item>
+        <item name ="android:colorPrimary">@color/primary</item>
+        <!-- Darker variant for the status bar -->
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <!-- Theme UI controls -->
+        <item name="android:colorAccent">@color/accent</item>
+        <!-- Theme's primary text color -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <!-- secondary text color -->
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <item name="android:fitsSystemWindows">true</item>
     </style>
 
 </resources>

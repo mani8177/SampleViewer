@@ -16,6 +16,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url 'http://dl.bintray.com/esri/arcgis'
+        }
     }
 }
 android {
@@ -43,6 +46,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.android.support:recyclerview-v7:21.0.+'
     compile 'jp.wasabeef:recyclerview-animators:1.2.1@aar'
+    compile 'com.esri.arcgis.android:arcgis-android:10.2.6'
 }
 
 // The sample build uses multiple directories to
@@ -77,6 +81,11 @@ android {
         androidTest.setRoot('tests')
         androidTest.java.srcDirs = ['tests/src']
 
+    }
+    packagingOptions{
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
     }
 
 }
