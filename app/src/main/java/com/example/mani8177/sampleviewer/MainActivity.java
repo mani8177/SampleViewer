@@ -206,7 +206,7 @@ public class MainActivity extends Activity {
 
             showSamplesList(selectedItemId, selectedName);
 
-            
+
         }
     }
 }
