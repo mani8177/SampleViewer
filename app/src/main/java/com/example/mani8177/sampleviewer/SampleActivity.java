@@ -1,31 +1,27 @@
-package com.example.mani8177.cardtest;
+package com.example.mani8177.sampleviewer;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.TypedArray;
-//import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
-import android.app.ActionBar;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewTreeObserver;
-import android.view.Window;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.support.v7.widget.Toolbar;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
+//import android.support.v7.app.ActionBar;
 
 
 public class SampleActivity extends Activity implements ViewTreeObserver.OnScrollChangedListener {

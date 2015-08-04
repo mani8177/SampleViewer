@@ -1,4 +1,4 @@
-package com.example.mani8177.cardtest;
+package com.example.mani8177.sampleviewer;
 
 import android.graphics.Color;
 

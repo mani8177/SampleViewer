@@ -1,6 +1,5 @@
-package com.example.mani8177.cardtest;
+package com.example.mani8177.sampleviewer;
 
-import android.graphics.drawable.Drawable;
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
@@ -10,6 +9,7 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Shader;
+import android.graphics.drawable.Drawable;
 
 /**
  * Created by mani8177 on 7/28/15.

@@ -1,4 +1,4 @@
-package com.example.mani8177.cardtest;
+package com.example.mani8177.sampleviewer;
 
 /**
  * Created by mani8177 on 7/30/15.
